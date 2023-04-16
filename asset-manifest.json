@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PhysicsLesson/static/css/main.c662e912.css",
-    "main.js": "/PhysicsLesson/static/js/main.e7e0f99c.js",
+    "main.js": "/PhysicsLesson/static/js/main.b35ad15a.js",
     "static/media/img2.jpg": "/PhysicsLesson/static/media/img2.fe104c14fc5ed558f217.jpg",
     "static/media/img5.jpg": "/PhysicsLesson/static/media/img5.2548cdc4ea3d9dc57c2d.jpg",
     "static/media/img54.jpg": "/PhysicsLesson/static/media/img54.568b8724eaf67112f348.jpg",
@@ -13,10 +13,10 @@
     "static/media/img6.jpg": "/PhysicsLesson/static/media/img6.0f380ffd0d3fb32c755e.jpg",
     "index.html": "/PhysicsLesson/index.html",
     "main.c662e912.css.map": "/PhysicsLesson/static/css/main.c662e912.css.map",
-    "main.e7e0f99c.js.map": "/PhysicsLesson/static/js/main.e7e0f99c.js.map"
+    "main.b35ad15a.js.map": "/PhysicsLesson/static/js/main.b35ad15a.js.map"
   },
   "entrypoints": [
     "static/css/main.c662e912.css",
-    "static/js/main.e7e0f99c.js"
+    "static/js/main.b35ad15a.js"
   ]
 }
