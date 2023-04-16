@@ -20,7 +20,7 @@ function Questions() {
               <div className='flex items-center'>
               {
                 item.questions.map((i,index)=>
-                <Link to={"/"+i}>
+                <Link to={"/PhysicsLesson/"+i}>
                   <div key={i}  style={{background:questions[item.questions[index]-1].checked===true?"lime":""}}
                    className='border-2 border-black p-4 rounded-[10%] mr-[20px] border-2 w-fit text-[20px] hover:bg-gray-200'>
                     {index*10+10}

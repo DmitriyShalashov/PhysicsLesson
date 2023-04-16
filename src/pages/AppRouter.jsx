@@ -6,8 +6,8 @@ import Questions from './Questions';
 function AppRouter() {
     return ( 
             <Routes>
-                <Route path='/' Component={Questions}></Route>
-                <Route path='/:id' Component={Question}></Route>
+                <Route path='/PhysicsLesson' Component={Questions}></Route>
+                <Route path='/PhysicsLesson/:id' Component={Question}></Route>
             </Routes>    
     );
 }

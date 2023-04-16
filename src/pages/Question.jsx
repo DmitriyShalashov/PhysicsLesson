@@ -24,7 +24,7 @@ function Question() {
         <>
         <Link to={"/"} className='text-[20px]'>Назад</Link> 
         <div className='w-full h-screen flex items-center justify-center'>
-            <img src={question.image} className="h-[500px] mr-[40px]"/>
+            <img src={question&&question.image} className="h-[500px] mr-[40px]"/>
             <div className='w-[600px]'>
                 <h2 className='text-[26px] mb-[20px] '>Вопрос на {question.weight} очков</h2>
                 <h1 className='text-[40px] mb-[40px]'>{question.text}</h1>
