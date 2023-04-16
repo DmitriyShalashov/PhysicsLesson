@@ -22,7 +22,7 @@ function Question() {
     }
     return (
         <>
-        <Link to={"/"} className='text-[20px]'>Назад</Link> 
+        <Link to={"/PhysicsLesson"} className='text-[20px]'>Назад</Link> 
         <div className='w-full h-screen flex items-center justify-center'>
             <img src={question&&question.image} className="h-[500px] mr-[40px]"/>
             <div className='w-[600px]'>
