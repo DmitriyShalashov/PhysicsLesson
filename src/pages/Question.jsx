@@ -14,6 +14,9 @@ function Question() {
         } 
         if(Number(value)===question.right){
             setColor("lime")
+            let answers=localStorage.getItem("answers")
+            answers===null?answers=String(id-1):answers+=","+(id-1)
+            localStorage.setItem("answers",answers)
             questions[id-1].checked=true
         }
         else{

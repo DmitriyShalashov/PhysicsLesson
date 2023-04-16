@@ -30,6 +30,12 @@ const quiz=[
         questions:[
          21,22,23,24,25
         ]
+    },
+    {
+        category:'"Ва-банк"',
+        questions:[
+         26,27,28
+        ]
     }
 ]
 const questions=[
@@ -213,7 +219,7 @@ const questions=[
             "Нептун",
             "Меркурий"
         ],
-        right:3,
+        right:0,
         weight:30,
         checked:false
     },
@@ -387,6 +393,43 @@ const questions=[
         right:0,
         weight:50,
         checked:false
+    }, {
+        id:26,
+        text:"Почему толстостенные стаканы лопаются от горячей воды намного чаще, чем тонкостенные?",
+        image:"",
+        variants:[
+            "Принять ответ",
+        ],
+        right:0,
+        weight:60,
+        checked:false
+    },
+    {
+        id:27,
+        text:"Китайцы называли их чу-ши, греки – адамас, геркулесов камень, французы – айман, египтяне – кость Ора, англичане – лоудстоун. Большинство этих названий означает «любящий». О чем (или о ком) говорится таким поэтическим языком древних?",
+        image:"",
+        variants:[
+            "Принять ответ",
+        ],
+        right:0,
+        weight:60,
+        checked:false
+    },
+    {
+        id:28,
+        text:"Почему провода на линиях электропередачи зимой натянуты, а  летом висят?",
+        image:"",
+        variants:[
+            "Принять ответ",
+        ],
+        right:0,
+        weight:60,
+        checked:false
     },
 ]
-export { quiz,questions }
+
+const vabank=[
+   
+]
+
+export { quiz,questions,vabank }
