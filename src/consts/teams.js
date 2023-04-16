@@ -1,0 +1,2 @@
+const teams=[]
+export { teams }
