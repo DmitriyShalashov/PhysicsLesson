@@ -13,9 +13,10 @@ function Questions() {
         alert("Ответов нет")
         return
       }
-      console.log(answers)
+      const arr=answers.split(",")
+      console.log(arr)
       questions.forEach((item,index)=>{
-        if(answers.includes(String(index))){
+        if(arr.includes(String(index))===true){
           questions[index].checked=true
         }
       })
